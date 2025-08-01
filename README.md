@@ -22,3 +22,7 @@ A modern, high-performance REST API for managing notes built with FastAPI, SQLAl
 ### Installation
 
 1. **Clone the repository**
+git clone https://github.com/ShantanuN8/notes-api.git
+cd fastapi-notes-api
+
+text
