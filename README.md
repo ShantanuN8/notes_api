@@ -66,39 +66,24 @@ curl -X POST "http://127.0.0.1:8000/notes/"
 -H "Content-Type: application/json"
 -d '{"title": "My First Note", "content": "This is the content of my note"}'
 
-text
 
 **Get a Note**
 curl -X GET "http://127.0.0.1:8000/notes/1"
 
-text
+
 
 **Update a Note**
 curl -X PUT "http://127.0.0.1:8000/notes/1"
 -H "Content-Type: application/json"
 -d '{"title": "Updated Note", "content": "Updated content"}'
 
-text
+
 
 **Delete a Note**
 curl -X DELETE "http://127.0.0.1:8000/notes/1"
 
-text
 
-## 🏗️ Project Structure
-
-fastapi-notes-api/
-│
-├── main.py # FastAPI application and route definitions
-├── models.py # SQLAlchemy database models
-├── schemas.py # Pydantic models for request/response validation
-├── database.py # Database configuration and connection
-├── requirements.txt # Python dependencies
-├── .gitignore # Git ignore file
-├── README.md # Project documentation
-└── notes.db # SQLite database (auto-generated)
-
-text
+<pre> ### 📁 Project Structure ``` fastapi-notes-api/ ├── main.py # FastAPI application and route definitions ├── models.py # SQLAlchemy database models ├── schemas.py # Pydantic models for request/response validation ├── database.py # Database configuration and connection ├── requirements.txt # Python dependencies ├── .gitignore # Git ignore file ├── README.md # Project documentation └── notes.db # SQLite database (auto-generated) ``` </pre>
 
 ## 🛠️ Technology Stack
 
