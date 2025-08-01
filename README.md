@@ -153,9 +153,8 @@ Project Link: https://github.com/ShantanuN8/notes_api
 Also Create a requirements.txt File
 Create another new file called requirements.txt and add:
 
-text
-fastapi==0.104.1
+`fastapi==0.104.1
 uvicorn[standard]==0.24.0
 sqlalchemy==2.0.23
 pydantic[dotenv]==2.5.0
-psycopg2-binary==2.9.9
+psycopg2-binary==2.9.9`
