@@ -84,7 +84,7 @@ curl -X DELETE "http://127.0.0.1:8000/notes/1"
 
 
 ## 📁 Project Structure 
-`notes_api 
+``notes_api 
 ├── main.py # FastAPI application and route definitions
 ├── models.py # SQLAlchemy database models
 ├── schemas.py # Pydantic models for request/response validation
@@ -92,7 +92,7 @@ curl -X DELETE "http://127.0.0.1:8000/notes/1"
 ├── requirements.txt # Python dependencies
 ├── .gitignore # Git ignore file
 ├── README.md # Project documentation
-└── notes.db # SQLite database (auto-generated) `
+└── notes.db # SQLite database (auto-generated) ``
 
 ## 🛠️ Technology Stack
 
