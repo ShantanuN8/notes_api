@@ -36,17 +36,14 @@ macOS/Linux
 python3 -m venv venv
 source venv/bin/activate
 
-text
 
 3. **Install dependencies**
 pip install -r requirements.txt
 
-text
 
 4. **Run the application**
 uvicorn main:app --reload
 
-text
 
 5. **Access the API**
 - API Documentation: http://127.0.0.1:8000/docs
@@ -163,8 +160,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-Your Name - your.email@example.com
-Project Link: https://github.com/yourusername/fastapi-notes-api
+Your Name - shantanunawathey1@gmail.com
+Project Link: https://github.com/ShantanuN8/notes_api
 
 ---
 
