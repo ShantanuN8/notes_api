@@ -83,7 +83,7 @@ curl -X PUT "http://127.0.0.1:8000/notes/1"
 curl -X DELETE "http://127.0.0.1:8000/notes/1"
 
 
-<pre> ### 📁 Project Structure ``` fastapi-notes-api/ ├── main.py # FastAPI application and route definitions ├── models.py # SQLAlchemy database models ├── schemas.py # Pydantic models for request/response validation ├── database.py # Database configuration and connection ├── requirements.txt # Python dependencies ├── .gitignore # Git ignore file ├── README.md # Project documentation └── notes.db # SQLite database (auto-generated) ``` </pre>
+## 📁 Project Structure ``` fastapi-notes-api/ ├── main.py # FastAPI application and route definitions ├── models.py # SQLAlchemy database models ├── schemas.py # Pydantic models for request/response validation ├── database.py # Database configuration and connection ├── requirements.txt # Python dependencies ├── .gitignore # Git ignore file ├── README.md # Project documentation └── notes.db # SQLite database (auto-generated) ```
 
 ## 🛠️ Technology Stack
 
